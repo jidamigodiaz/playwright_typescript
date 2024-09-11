@@ -1,0 +1,22 @@
+{
+  "name": "playwright_typescript",
+  "version": "1.0.0",
+  "description": "playwright example with typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "ts-node",
+    "lint": "eslint . --ext .ts",
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^22.5.4",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "yarn": "^1.22.22"
+  }
+}
